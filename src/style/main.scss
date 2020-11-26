@@ -1,0 +1,39 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $gray;
+  padding: 20px;
+  align-items: center;
+  width: 30%;
+  margin: 10% 35% 0 35%;
+  border-radius: $border-radius-base;
+}
+
+button {
+  width: 80%;
+  height: 40px;
+  margin: 10px 0;
+}
+
+.login-btn {
+  @extend .login-button;
+}
+.register-btn {
+  @extend .register-button;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid $gray;
+  background: none;
+  width: 80%;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+a {
+  font-size: 14px;
+  color: $primary-color;
+  margin-right: auto;
+  padding-left: 40px;
+}

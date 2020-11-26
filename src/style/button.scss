@@ -1,0 +1,12 @@
+.login-button {
+  border-radius: 20px;
+  border: $primary-color 1px solid;
+  background: $body-bg;
+  color: $primary-color;
+  font-size: 14px;
+}
+.register-button {
+  @extend .login-button;
+  color: white;
+  background: $primary-color;
+}

@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5% 1.5%;
+  border-bottom: 1px solid $gray;
+  align-items: center;
+}
+
+nav {
+  .login-btn {
+    @extend .login-button;
+    width: 80px;
+  }
+  .register-btn {
+    @extend .register-button;
+    width: 80px;
+  }
+}
